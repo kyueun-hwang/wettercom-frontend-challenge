@@ -1,0 +1,22 @@
+.accordionItem {
+  cursor: pointer;
+}
+
+.accordionItemHeader {
+  margin-top: 5px;
+  padding: 15px 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  background: linear-gradient(0deg, #2f66b4, #00489a 50%, #2f66b4);
+  color: white;
+}
+
+.accordionItemContent {
+  min-height: 340px;
+}
+
+.temperatureMax {
+  font-size: 30px;
+}

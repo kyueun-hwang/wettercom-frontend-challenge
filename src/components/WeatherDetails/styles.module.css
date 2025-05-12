@@ -1,0 +1,19 @@
+.weatherDetails {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  padding: 15px 25px;
+  border-bottom: 1px solid #d7d7d7;
+}
+
+.weatherDetailsItem {
+  flex: 1;
+}
+
+.windContainerItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
